@@ -1,10 +1,13 @@
-import { Header, Hero } from "../components";
+import { Cards, Footer, Header, Hero } from "../components";
 
 export const HomePage = () => {
   return (
-    <main>
+    <main className="flex flex-col gap-16">
       <Header />
-      <Hero />
+      <div className="grid grid-cols-4 gap-10 ">
+        <Hero />
+      </div>
+      <Footer />
     </main>
   );
 };

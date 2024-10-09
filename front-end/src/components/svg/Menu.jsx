@@ -21,25 +21,23 @@ export const Menu = () => {
           </a>
         </li>
         <li>
-          <a className="tooltip" data-tip="Details">
+          <a className="tooltip" data-tip="Search">
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
               className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                fillRule="evenodd"
+                d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                clipRule="evenodd"
               />
             </svg>
           </a>
         </li>
         <li>
-          <a className="tooltip" data-tip="Stats">
+          <a className="tooltip" data-tip="Admin">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
