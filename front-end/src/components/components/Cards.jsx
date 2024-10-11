@@ -2,7 +2,7 @@
 
 export const Cards = () => {
   return (
-    <div className="max-w-[320px] border p-4 rounded-xl flex flex-col gap-1 hover:shadow-xl hover:shadow-slate-800">
+    <div className="w-[300px] md:w-[200px] border p-4 rounded-xl flex flex-col gap-1 hover:shadow-xl hover:shadow-slate-800">
       <div className="flex justify-between ">
         <div>
           <div className="flex justify-between">
@@ -18,7 +18,7 @@ export const Cards = () => {
             <h2 className="card-title">Cruser Harley Devidson</h2>
             <h1>99827$</h1>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary w-[200px]">
+              <button className="btn btn-primary w-[200px] md:w-[100px] md:line-clamp-3 md:text-xs">
                 Шоппинг карт д нэмэх
               </button>
             </div>
