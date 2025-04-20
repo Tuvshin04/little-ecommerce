@@ -12,7 +12,9 @@
   "type": "module",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "mongoose": "^7.0.0"
   }
 }

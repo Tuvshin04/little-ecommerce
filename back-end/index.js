@@ -1,10 +1,12 @@
 import express from "express";
-const app = express();
-const PORT = 9111;
+import mongoose from "mongoose";
+import cors from "cors";
+import userRouter from "./router/userRouter.js";
 
-app.get((request, response) => {
-  response.send("hello huselt");
-});
-app.listen(PORT, () => {
-  console.log(`http://localhost:${PORT}`);
-});
+const app = express();
+const port = process.env.PORT || 5000;
+
+app.use(cors());
+app.use(express.json());
+
+app.use("/api/users", userRouter);

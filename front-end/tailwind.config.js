@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    darkTheme: "lihgt", // name of one of the included themes for dark mode
+    themes: ["light"], // Specify at least one theme
+    darkTheme: "light", // Fixed typo in "light"
   },
 };

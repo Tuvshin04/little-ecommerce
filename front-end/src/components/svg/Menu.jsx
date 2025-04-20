@@ -5,8 +5,8 @@ import Link from "next/link";
 export const Menu = () => {
   return (
     <div>
-      <ul className="menu menu-horizontal bg-base-200 rounded-box mt-6">
-        <Link href="/">
+      <ul className="menu menu-horizontal flex gap-3 bg-base-200 rounded-box mt-6">
+        <Link href="/HomePage">
           <li>
             <div className="tooltip" data-tip="Home">
               <svg

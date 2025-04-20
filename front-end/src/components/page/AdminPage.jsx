@@ -1,4 +1,4 @@
-import { AdminPageHero, Cards, Footer, Header, Hero } from "../components";
+import { AdminPageHero, Footer, Header } from "../components";
 
 export const AdminPage = () => {
   return (
