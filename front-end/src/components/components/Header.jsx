@@ -9,7 +9,7 @@ export const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <h4 className="text-3xl font-bold rounded-lg border-2 border-gray-300 p-2 bg-white text-gray-900 hover:bg-gray-100 transition-colors">
-              Hero Auto Shop
+              Hero Auto Service
             </h4>
           </Link>
 
