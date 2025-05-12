@@ -1,4 +1,4 @@
-import { Cards, Footer, Header, Hero } from "../components";
+import { Footer, Header, Hero } from "../components";
 
 export const HomePage = () => {
   return (

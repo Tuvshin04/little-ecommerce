@@ -10,8 +10,8 @@ const products = [
     name: "Cruiser Harley Davidson",
     price: 99827,
     image:
-      "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m15b/2024-heritage-classic-114-m15b-motorcycle.jpg",
-    category: "Motorcycles",
+      "https://res.cloudinary.com/dnv1aoane/image/upload/Baraa/sssfa8cgohtclmcaoh2j",
+    category: "Body Parts",
   },
   {
     id: 2,

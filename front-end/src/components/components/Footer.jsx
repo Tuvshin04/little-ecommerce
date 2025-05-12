@@ -15,7 +15,7 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-400 hover:text-white transition"
                 >
                   Home
@@ -23,7 +23,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/ProductPage"
                   className="text-gray-400 hover:text-white transition"
                 >
                   Products
@@ -31,7 +31,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/AboutUsPage"
                   className="text-gray-400 hover:text-white transition"
                 >
                   About Us
@@ -39,7 +39,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/ContactUsPage"
                   className="text-gray-400 hover:text-white transition"
                 >
                   Contact
@@ -48,7 +48,6 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <ul className="text-gray-400 space-y-2">
@@ -59,7 +58,6 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Media */}
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
